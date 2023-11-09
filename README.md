@@ -8,8 +8,7 @@ def find_second_largest(input_list):
     # Reverse sorting.
     input_list.sort(reverse=True)
     maxnum = input_list[0]
-
-    # Finding the second largest number.
+    
     for i in input_list:
         if i == maxnum:
             continue
@@ -17,8 +16,6 @@ def find_second_largest(input_list):
             secondmax = i
             return secondmax
             break
-
-
 
 
 input_list = [10, 20, 30, 40, 40]
